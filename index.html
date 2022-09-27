@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eye-movin</title>
+    <script defer src="script.js"></script>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        padding: 0;
+        margin: 0;
+      }
+      main {
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+      #eyes,
+      #eye img {
+        position: absolute;
+        
+      }
+      
+    </style>
+  </head>
+  <body>
+    <main>
+      <img id="anchor" src="nezuko.png" />
+      <div id="eyes">
+        <img class="eye" src="eye-nezu.png" style="top: 285px;
+        position: relative;
+        left: 230%;" />
+        <img class="eye" src="eye-nezu.png" style="top: 303px;
+        position: relative;
+        left: 85%;" />
+      </div>
+    </main>
+  </body>
+</html>
